@@ -1,0 +1,21 @@
+.text{
+    color: white;
+    text-align: center;
+}
+body{
+    background-color: navajowhite;
+}
+.navbar{
+    color: white;
+    padding: 10px 0;
+    align-items: center;
+    display: flex;
+    background-color: dimgray;
+    width: 100%;
+    justify-content: space-between;
+    border-radius: 5px;
+
+}
+.hello{
+    padding-left:  10px;
+}
