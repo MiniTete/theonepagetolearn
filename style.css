@@ -10,7 +10,7 @@ body{
     padding: 10px 0;
     align-items: center;
     display: flex;
-    background-color: dimgray;
+    background-color: #363636;
     width: 100%;
     justify-content: space-between;
     border-radius: 5px;
@@ -18,4 +18,18 @@ body{
 }
 .hello{
     padding-left:  10px;
+}
+.button{
+    background-color: navajowhite;
+    color: #363636;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    margin: 0px 50px 0px;
+    padding: 2px 5px;
+}
+.button:hover{
+    background-color: #363636;
+    color: navajowhite;
 }
