@@ -39,7 +39,7 @@ body{
 }
 @media(max-widht: 768px){
     .button{
-        margin-right: 10px;
+        margin-right: 1000px;
         padding: 8px 16px;
     }
 }
