@@ -53,6 +53,7 @@ body{
 .logo{
     width: 10px;
     height: auto;
+    display: block;
 }
 .container{
     display: flex;
