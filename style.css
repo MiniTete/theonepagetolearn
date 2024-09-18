@@ -25,7 +25,7 @@ body{
 }
 @media(max-width: 768px){
     .navbar{
-        justify-content: center;
+        justify-content: flex-end;
     }
     .button{
         right: 10%;
