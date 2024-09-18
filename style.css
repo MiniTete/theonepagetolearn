@@ -10,6 +10,7 @@ body{
     text-align: center;
     justify-content: center;
     position: relative;
+    box-sizing: border-box;
 }
 .navbar{
     color: white;
@@ -21,7 +22,7 @@ body{
     width: 100%;
     justify-content: center;
     border-radius: 5px;
-    height: 30px;
+    height: 50px;
 }
 @media(max-width: 768px){
     .navbar{
@@ -50,11 +51,6 @@ body{
     background-color: #363636;
     color: navajowhite;
 }
-.logo{
-    width: 10px;
-    height: auto;
-    display: block;
-}
 .container{
     display: flex;
     flex-direction: column;
@@ -62,15 +58,13 @@ body{
     justify-content: center;
     text-align: center;
     height: 5px;
-    width: 10px;
-    size: 10px;
     font-size: 10px;
     text-align: center;
-    width: 300px;
+    width: 60px;
     position: absolute;
     margin: 0 auto;
-    padding-right: 75px;
-    top: 5px;
+    background-color: navajowhite;
+    border-radius: 5px;
 }
 .container .price{
     justify-content: center;
@@ -82,17 +76,20 @@ body{
 }
 h1{
     font-size: 15px;
-    margin: 0;
+    margin: 0 auto;
     margin-bottom: 0px;
-}
-.container .price .logo{
-    width: 30px;
-    margin-right: 20px;
-}
-.container .price .logo img{
-    width: 100%;
 }
 .num{
     display: flex;
     flex-direction: column;
+}
+.bit{
+    color: orange;
+    margin: 0 auto;
+}
+.bitcoin-price{
+    color: red;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: auto;
 }
