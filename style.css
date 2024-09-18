@@ -40,6 +40,7 @@ body{
 @media(max-widht: 768px){
     .button{
         padding-right: 10000000px;
+        margin-right: 10000000px;
     }
 }
 .button:hover{
