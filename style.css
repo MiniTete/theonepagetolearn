@@ -14,7 +14,7 @@ body{
 .navbar{
     color: white;
     justify-content: flex-end;
-    padding: 10px 0;
+    padding: 10px 0px;
     align-items: center;
     display: flex;
     background-color: #363636;
@@ -26,6 +26,10 @@ body{
 @media(max-width: 768px){
     .navbar{
         justify-content: center;
+    }
+    .button{
+        right: 10%;
+        margin-right: 10000000px;
     }
 }
 .button{
@@ -41,12 +45,7 @@ body{
     margin-left: 1000px;
     display: inline-block;
 }
-@media(max-widht: 768px){
-    .button{
-        padding-right: 10000000px;
-        margin-right: 10000000px;
-    }
-}
+    
 .button:hover{
     background-color: #363636;
     color: navajowhite;
