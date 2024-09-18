@@ -32,6 +32,10 @@ body{
         right: 10%;
         margin: auto;
     }
+    h1{
+        text-align: center;
+        margin: 0 auto;
+    }
 }
 .button{
     background-color: navajowhite;
