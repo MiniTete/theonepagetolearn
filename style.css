@@ -39,6 +39,10 @@ body{
     .price{
         padding: 10px 20px;
     }
+    .logo{
+        padding-top: 5px;
+        padding-left: 5px;
+    }
 }
 .button{
     background-color: navajowhite;
