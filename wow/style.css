@@ -1,0 +1,133 @@
+body{
+    background-color: navajowhite;
+    min-height: 100vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+}
+.navbar{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    align-items: center;
+    display: flex;
+    background-color: #363636;
+    width: 100%;
+    justify-content: center;
+    border-radius: 5px;
+    height: 50px;
+    margin: 20px auto;
+}
+@media(max-width: 768px){
+    .navbar{
+        justify-content: center;
+    }
+    .button{
+        right: 10%;
+        margin: 0 10px;
+    }
+    .container{
+        padding: 15px;
+    }
+    .price{
+        padding: 10px 20px;
+    }
+    .logo{
+        padding-top: 5px;
+        padding-left: 5px;
+    }
+}
+.num{
+    display: flex;
+    justify-content: flex-end;
+    gap: 0px
+}
+.button{
+    background-color: navajowhite;
+    color: #363636;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+    
+.button:hover{
+    background-color: #363636;
+    color: navajowhite;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 5px;
+    font-size: 10px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.container .price{
+    justify-content: center;
+    font-size: 15px;
+    align-items: center;
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+h1{
+    font-size: 20px;
+    margin: 0 auto;
+    margin-bottom: 0px;
+}
+.num{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    text-align: center;
+}
+.bit{
+    color: orange;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.bitcoin-price{
+    color: red;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: auto;
+    font-size: 20px;
+}
+.logo{
+    height: 40px;
+    width: auto;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.bttn{
+    display: flex;
+    background-color: navajowhite;
+    color: #363636;
+    display: inline-block;
+    text-decoration: none;
+    margin-right: -350px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.price {
+    margin-top: -45px;
+    display: flex;
+    justify-content: center;
+    margin-left: 120px;
+}
